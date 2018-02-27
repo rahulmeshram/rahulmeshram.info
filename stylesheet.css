@@ -1,132 +1,184 @@
 body {
-	background-color:#c0c0c0;
-	font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
+    background-color: #c0c0c0;
+    font-family: "Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
-div#container{
-	width:740px;
-	margin:60px auto;
-	background-color:#ffffff;
-	padding:30px;
+div#container {
+    width: 740px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
 }
 
-.shadow{
-	box-shadow: 0px 0px 30px #555555;
+.shadow {
+    box-shadow: 0px 0px 30px #555555;
 }
 
-.floatright{
-	float:right;
-}
-.floatleft{
-	float:left;
+.floatright {
+    float: right;
 }
 
-.padding{
-	padding:20px;
+.floatleft {
+    float: left;
 }
 
-header{
-	text-align:center;
+.padding {
+    padding: 20px;
 }
 
-	header .tagline{
-		font-size:18px;
-		margin:10px 0 0 0;
-	}
-	
-	header .title{
-		font-size:72px;
-		margin:0px;
-	}
-
-ul#nav{
-	border-top:1px solid black;
-	border-bottom:1px solid black;
-	text-align:center;
-	margin:15px 0px 30px 0px;
-	padding:0px;
-	height:48px;
-}
-	
-	ul#nav li{
-		list-style:none;
-		display:block;
-		float:left;
-	}
-	
-	ul#nav a{
-		text-decoration:none;
-		padding:15px;
-		width:118px;
-		display:block;
-		color:#000;
-		margin:0px;
-	
-	}
-	
-	ul#nav a:hover{
-		background-color:#000;
-		color:#fff;	
-		-webkit-transition: all 1s ;
-		-moz-transition: all 1s ;
-		-o-transition: all 1s ;
-		transition: all 1s ;
-	}
-
-section#content h1{
-	font-size:28px;
-	color:#434343;
-	font-weight:normal;
+header {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
-section#content h2{
-	font-size:22px;
-	color:#434343;
-	font-weight:normal;
+header .tagline {
+    font-size: 18px;
+    margin: 10px 0 0 0;
 }
 
-section#content h3{
-	font-size:18px;
-	color:#434343;
+header .title {
+    font-size: 72px;
+    margin: 0px;
+}
+
+ul#nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 15px 0px 30px 0px;
+    padding: 0px;
+    height: 48px;
+}
+
+ul#nav li {
+    list-style: none;
+    display: block;
+    float: left;
+}
+
+ul#nav a {
+    text-decoration: none;
+    padding: 15px;
+    width: 118px;
+    display: block;
+    color: #000;
+    margin: 0px;
+
+}
+
+ul#nav a:hover {
+    background-color: #000;
+    color: #fff;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+section#content h1 {
+    font-size: 28px;
+    color: #434343;
+    font-weight: normal;
+}
+
+section#content h2 {
+    font-size: 22px;
+    color: #434343;
+    font-weight: normal;
+}
+
+section#content h3 {
+    font-size: 18px;
+    color: #434343;
 }
 
 section#content p,
 section#content li,
-section#content a{
-	font-size:14px;
-	line-height:24px;
+section#content a {
+    font-size: 14px;
+    line-height: 24px;
 }
 
-section#content a{
-	color:green;
-	text-decoration:none;
-}
-	
-	section#content a:hover{
-	text-decoration:underline;
-}
-	
-footer{
-	background-color:#bee08e;
-	padding:15px;
-	margin-top:30px;
-	height:60px;
+section#content a {
+    color: green;
+    text-decoration: none;
 }
 
-	footer p{
-		font-size:14px;
-		color:#4d711a;
-		margin-top:25px;
-	}
-	
-	footer img{
-		border:0px;
-	}
+section#content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #bee08e;
+    padding: 15px;
+    margin-top: 30px;
+    height: 60px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #4d711a;
+    margin-top: 25px;
+}
+
+footer img {
+    border: 0px;
+}
 
 /* ==== Custom Styles ==== */
 
-.portfolio img{
-	box-shadow: 0px 0px 10px #555555;
-	padding:5px;
-	margin:5px;
-|
+.portfolio img {
+    box-shadow: 0px 0px 10px #555555;
+    padding: 5px;
+    margin: 5px;
+}
+
+svg {
+    display: block;
+    font: 6.5em 'Montserrat';
+    width: 900px;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 4.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #4D163D;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #840037;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #BD0034;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #BD0034;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+    stroke: #FDB731;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -33%;
+    }
+}
