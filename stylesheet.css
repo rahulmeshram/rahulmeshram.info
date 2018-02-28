@@ -30,6 +30,7 @@ header {
     text-align: center;
     padding: 0px;
     margin: 0px;
+    background-color: rgba(114, 172, 47, 0.69);
 }
 
 header .tagline {
@@ -133,6 +134,7 @@ svg {
     height: 150px;
     padding: 5px;
     margin: 5px;
+
 }
 
 .text-copy {
@@ -142,6 +144,7 @@ svg {
     stroke-width: 5px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 4.5s infinite linear;
+
 }
 
 .text-copy:nth-child(1) {
