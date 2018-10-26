@@ -186,3 +186,8 @@ svg {
     padding: 5px;
     margin: 5px;
 }
+
+.floatright:hover {
+    position: relative;
+    top: -10px;
+}
